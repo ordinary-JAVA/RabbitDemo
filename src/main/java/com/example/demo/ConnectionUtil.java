@@ -6,7 +6,7 @@ import com.rabbitmq.client.Connection;
 public class ConnectionUtil {
 
     public static Connection getConnection() throws Exception {
-        //定义连接工厂
+        //定义连接工厂test
         ConnectionFactory factory = new ConnectionFactory();
         //设置服务地址
         factory.setHost("localhost");
